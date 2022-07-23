@@ -1,4 +1,4 @@
-Link to website: https://hieule0301.github.io/online-bookstore/
+Link to website: https://hieule0301-online-bookstore.herokuapp.com/
 
 Citation for pictures: 
 logo: https://www.pinterest.com/pin/94294185933524112/
