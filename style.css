@@ -29,6 +29,7 @@ header nav a{
     font-size: 2rem;
     padding-left: 3rem;
     padding-right: 3rem;
+    white-space: nowrap;
 }
 .nav_border{
     border-right: solid 1px black;
