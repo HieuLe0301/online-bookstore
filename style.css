@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela&display=swap');
+
+
+html { 
+    /* background-color: rgb(31,31,31); */
+    font-family: 'Varela', sans-serif;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header #logo{
+    height: 10rem;
+}
+
+header nav{
+    /* background-color: green; */
+    width: 50%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+}
+
+header nav a{
+    text-decoration: none;
+    font-size: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+.nav_border{
+    border-right: solid 1px black;
+    border-left: solid 1px black;
+}
+
+
+main a{
+    text-decoration: none;
+}
+
+.cat{
+    margin-top: 5rem;
+    /* background-color: green; */
+    font-size: 1.5rem;
+}
+
+.cat_name{
+    text-align: center;
+    
+}
+
+.cat_list{
+    margin-top: 2rem;;
+    display:flex;
+    justify-content: space-around;
+
+}
+
+.cat_list .item{
+    width: 10rem;
+}
+
+
+#breadcrump{
+    margin-top: 3rem;;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.book_info{
+    margin-top: 5rem;
+    display:flex;
+    justify-content: space-evenly;
+    position: static;
+}
+
+.pics {
+    display:flex;
+}
+
+.pics .main_pic{
+    height: 30rem;
+
+}
+
+.sub_pics{
+    position:relative;
+    margin-left: 1rem;
+}
+
+.sub_pics_item{
+    height: 8rem;
+    margin-bottom: 0.5rem;
+}
+
+.price {
+    font-size: 4rem;
+    margin-top: 5rem;;
+}
+
+
+.book_description{
+    padding-top: 5rem;
+    padding-left: 10%;
+    width: 85%;
+    font-size: 1.25rem;
+}
+
+
+#contact_h1{
+    font-size: 5rem;
+    margin-top: 5rem;
+    text-align: center;
+}
+
+#contact_form{
+    font-size: 2rem;
+    padding-left: 20%;
+}
+
+#contact_form input{
+    font-size: 2rem;
+}
+
+#contact_form select{
+    font-size: 2rem;
+}
+
+#contact_form button{
+    font-size: 2rem;
+}
+
+.input_item{
+    display: flex;
+}
+
+footer {
+    margin-top: 10rem;;
+    display:flex;
+    justify-content: end;
+}
+
+footer nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer nav a{
+    text-decoration: none;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+
+
+/* FOR MOBILE SCREEN */
+@media only screen and (max-width: 960px) {
+    header {
+        display: block;
+    }
+
+    header nav {
+        display: block;
+    }
+
+    .nav_border{
+        border-right: 0px;
+        border-left: 0px;
+    }
+
+    footer nav{
+        display:inline-block;
+    }
+
+    .book_info{
+        flex-direction: column;
+    }
+
+    .pics {
+        display: block;
+    }
+
+    .main_pic{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .sub_pics {
+        margin-top: 2rem;;
+        display: flex;
+        justify-content: center;
+        gap: 5%;
+    }
+
+    .book_info .buying{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .input_item{
+        flex-direction: column;
+    }
+
+}

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact</title>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <header>
+            <img src = "pics/logo.png" id = "logo" alt = "The bookstore logo"> 
+            <nav>
+                <a href = "index.html" class = "nav_border">Home Page</a>
+                <a href = "category.html">Comics</a>
+                <a href = "category.html"class = "nav_border">Adventurous</a>
+            </nav>
+        </header>
+        <main>
+            <h1 id = "contact_h1">
+                Contact Us
+            </h1>
+            <form action="#" method = "POST" id = "contact_form">
+
+                <div class = "input_item">
+                    <div>Contact purpose</div>
+                    <div>
+                        <select name = "purpose">
+                            <option value = "personal">I want to sell books</option>
+                            <option value = "business">I want to buy books</option>
+                        </select>
+                    </div>
+                </div>
+
+                <br>
+
+                <div class = "input_item">
+                    <div>
+                        Name:
+                    </div>
+                    <input type = "text"  placeholder= "Put your entire name" maxlength="50">
+                </div>
+
+                <br>
+                <br>
+
+                <div class = "input_item">
+                    <div>
+                        Email:
+                    </div>
+                    <input type = "email"  placeholder= "Put your email here">
+                </div>
+                
+                <br>
+                <br>
+
+                <div class = "input_item">
+                    <div>
+                        Phone number:
+                    </div>
+                    <input type = "number"  placeholder= "Put your phone number here" maxlength="50">
+                </div>
+
+                <br>
+                <br>
+
+                <div class = "input_item">
+                    <div>How can we contact you?</div>
+                    <div>
+                        <input type="checkbox" name = "preferred_method" id = "email" value = "email"><label for = "email">By email</label>
+                        <input type="checkbox" name = "preferred_method" id = "phone" value = "phone"><label for = "phone">By phone</label>
+                    </div>
+                </div>
+
+                <br>
+                <br>
+
+                <div class = "input_item">
+                    <div>Do you want to receive our weekly newsletter? </div>
+                    <div>
+                        <input type="radio" name = "weekly newsletter" id = "yes" value = "yes" checked = "checked"><label for = "yes">Yes</label>
+                        <input type="radio" name = "weekly newsletter" id = "no" value = "no"><label for = "no">No</label>
+                    </div>
+                </div>
+
+                <br>
+                <br>
+
+
+                <div>
+                    Note
+                </div>
+                <textarea name = "message" rows = "15" cols = "100"></textarea>
+
+                
+                <br>
+                <br>
+
+                <div>
+                    <button type = "submit">Submit</button>
+                    <input type = "reset">
+                </div>
+            </form>
+        </main>
+        <footer>
+            <nav>
+                <a href="about_us.html" class = "nav_border">About Us</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#" class = "nav_border">Terms</a>
+                <a href="#">Copyright</a>
+                <a href="contact.html" class = "nav_border">Contact Us</a>
+            </nav>
+        </footer>
+    </body>
+</html>
